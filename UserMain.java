@@ -28,7 +28,7 @@ public class UserMain {
 		   return matcher.matches();
 	}
 	
-	public boolean validEmail(String email) {
+	 public boolean validEmail(String email) {
 		   Pattern pattern = Pattern.compile(regEmail);
 		   if(email == null) {
 			   return false;
